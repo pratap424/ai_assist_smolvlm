@@ -1,0 +1,34 @@
+# Core
+numpy
+opencv-python
+Pillow
+matplotlib
+
+# Deep Learning
+torch>=2.0.0
+torchvision
+ultralytics  # for YOLOv8
+
+# Vision-Language Models
+transformers
+sentencepiece  # required by some Hugging Face models
+accelerate
+einops
+
+# SmolVLM and VQA-related (if using specific repo or Hugging Face weights)
+peft
+bitsandbytes  # if using quantized models
+
+# Depth Estimation (MiDaS)
+timm
+
+# GUI
+tk  # Tkinter (usually preinstalled with Python, but listed for completeness)
+pyttsx3  # for offline text-to-speech
+
+# Utility
+scikit-image
+scipy
+requests
+pyyaml
+tqdm
